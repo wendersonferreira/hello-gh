@@ -18,13 +18,6 @@ dependencies {
     testImplementation("junit:junit:4.13.1")
 }
 
-java {
-    toolchain {
-        languageVersion.set(JavaLanguageVersion.of(8))
-        vendor.set(JvmVendorSpec.BELLSOFT)
-    }
-}
-
 tasks {
     compileKotlin {
         kotlinOptions.jvmTarget = "1.8"
