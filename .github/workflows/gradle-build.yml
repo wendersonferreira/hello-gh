@@ -5,7 +5,7 @@ on: [push]
 jobs:
   build:
     container: bellsoft/liberica-openjdk-alpine-musl@sha256:01c623bf679aef626596e7850104e19adccd7f325fdcec2b0a8a41db261ca26a # your docker image
-    runs-on: bellsoft/liberica-openjdk-alpine-musl@sha256:01c623bf679aef626596e7850104e19adccd7f325fdcec2b0a8a41db261ca26a
+#     runs-on: bellsoft/liberica-openjdk-alpine-musl@sha256:01c623bf679aef626596e7850104e19adccd7f325fdcec2b0a8a41db261ca26a
 
     steps:
       - uses: actions/checkout@v2
